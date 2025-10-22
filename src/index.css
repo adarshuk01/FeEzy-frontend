@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+   font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+/* Define your brand color palette */
+@theme {
+  --color-primary: #1173d4;
+
+  /* Background colors */
+  --color-background-light: #f6f7f8;
+  --color-background-dark: #101922;
+
+  /* Text colors */
+  --color-text-light: #101922;
+  --color-text-dark: #f6f7f8;
+  --color-subtle-light:#6b7280;
+
+
+
+  /* Secondary text */
+  --color-text-secondary-light: #6b7280;
+  --color-text-secondary-dark: #9ca3af;
+
+  /* Input colors */
+  --color-input-light: #e5e7eb;
+  --color-input-dark: #1f2937;
+  --color-input-focus-light: #d1d5db;
+  --color-input-focus-dark: #374151;
+
+  --color-border-light:#e5e7eb;
+}
+
+.react-calendar__tile.attendance-day {
+  background-color: #22c55e; /* Tailwind green-400 */
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px; /* rounded-full */
+}
